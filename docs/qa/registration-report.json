@@ -1,0 +1,48 @@
+{
+  "shared_scale": {
+    "from": [
+      192,
+      208
+    ],
+    "to": [
+      173,
+      187
+    ],
+    "offset": [
+      9,
+      20
+    ],
+    "method": "uniform full-cell Bilinear resize; no local warping or new poses"
+  },
+  "retained_rows": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    9,
+    10
+  ],
+  "left_registration_y_offsets": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    -1,
+    0,
+    -2
+  ],
+  "left_halfcycle_face_center_y_difference_px": {
+    "before": 4,
+    "after": 0
+  },
+  "preserved": "pose order, facing, prop handedness, palette and gaze semantics; only shared uniform geometry and left vertical registration changed",
+  "new_rows_pending": [],
+  "new_rows_completed": [
+    3,
+    4,
+    7,
+    8
+  ]
+}

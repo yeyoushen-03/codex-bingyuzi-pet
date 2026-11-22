@@ -1,0 +1,838 @@
+{
+  "target_face_width": 46,
+  "target_face_center": [
+    97.0,
+    87.5
+  ],
+  "target_hood": [
+    0.5895061728395062,
+    0.24064171122994643,
+    0.8
+  ],
+  "target_accents": [
+    0.2676056338028169,
+    0.45374449339207046,
+    0.515625,
+    0.6282051282051283
+  ],
+  "rows": [
+    {
+      "state": "waving",
+      "row": 3,
+      "source_face_widths": [
+        52,
+        51,
+        51,
+        52
+      ],
+      "scale_for_row": 0.8932038834951457,
+      "hood_before": [
+        0.5851063829787234,
+        0.2583732057416268,
+        0.8392156862745098
+      ],
+      "hood_after": [
+        0.5897435897435898,
+        0.24519230769230765,
+        0.8
+      ],
+      "accents_before": [
+        0.24747474747474746,
+        0.48058252427184467,
+        0.5465116279069767,
+        0.6716417910447762
+      ],
+      "accents_after": [
+        0.24875621890547261,
+        0.45893719806763283,
+        0.5167785234899329,
+        0.6331360946745561
+      ],
+      "frames": [
+        {
+          "frame": 0,
+          "input_face": [
+            71,
+            58,
+            123,
+            98
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            74,
+            120,
+            109
+          ],
+          "face_center": [
+            97.0,
+            91.5
+          ],
+          "body_bbox": [
+            44,
+            25,
+            149,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 1,
+          "input_face": [
+            72,
+            58,
+            123,
+            98
+          ],
+          "scale": 0.890625,
+          "offset": [
+            10,
+            22
+          ],
+          "face_bbox": [
+            74,
+            74,
+            119,
+            109
+          ],
+          "face_center": [
+            96.5,
+            91.5
+          ],
+          "body_bbox": [
+            43,
+            25,
+            148,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 2,
+          "input_face": [
+            71,
+            58,
+            122,
+            98
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            74,
+            120,
+            109
+          ],
+          "face_center": [
+            97.0,
+            91.5
+          ],
+          "body_bbox": [
+            44,
+            25,
+            149,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 3,
+          "input_face": [
+            71,
+            58,
+            123,
+            98
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            74,
+            120,
+            109
+          ],
+          "face_center": [
+            97.0,
+            91.5
+          ],
+          "body_bbox": [
+            44,
+            25,
+            149,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "source_face_widths": [
+        47,
+        47,
+        47,
+        47,
+        47
+      ],
+      "scale_for_row": 0.9787234042553191,
+      "hood_before": [
+        0.5833333333333334,
+        0.3377192982456141,
+        0.8862745098039215
+      ],
+      "hood_after": [
+        0.5893719806763285,
+        0.25225225225225223,
+        0.8
+      ],
+      "accents_before": [
+        0.24226804123711343,
+        0.5,
+        0.5696969696969697,
+        0.6891891891891891
+      ],
+      "accents_after": [
+        0.24598930481283413,
+        0.45945945945945943,
+        0.5182481751824817,
+        0.6330935251798561
+      ],
+      "frames": [
+        {
+          "frame": 0,
+          "input_face": [
+            74,
+            71,
+            121,
+            108
+          ],
+          "scale": 0.9791666666666666,
+          "offset": [
+            2,
+            4
+          ],
+          "face_bbox": [
+            74,
+            74,
+            120,
+            110
+          ],
+          "face_center": [
+            97.0,
+            92.0
+          ],
+          "body_bbox": [
+            44,
+            28,
+            148,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 1,
+          "input_face": [
+            74,
+            80,
+            121,
+            115
+          ],
+          "scale": 0.9791666666666666,
+          "offset": [
+            2,
+            4
+          ],
+          "face_bbox": [
+            74,
+            82,
+            120,
+            117
+          ],
+          "face_center": [
+            97.0,
+            99.5
+          ],
+          "body_bbox": [
+            44,
+            37,
+            147,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 2,
+          "input_face": [
+            74,
+            49,
+            121,
+            84
+          ],
+          "scale": 0.9791666666666666,
+          "offset": [
+            2,
+            8
+          ],
+          "face_bbox": [
+            75,
+            56,
+            120,
+            91
+          ],
+          "face_center": [
+            97.5,
+            73.5
+          ],
+          "body_bbox": [
+            44,
+            13,
+            148,
+            169
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 3,
+          "input_face": [
+            74,
+            77,
+            121,
+            114
+          ],
+          "scale": 0.9791666666666666,
+          "offset": [
+            2,
+            -5
+          ],
+          "face_bbox": [
+            74,
+            71,
+            120,
+            106
+          ],
+          "face_center": [
+            97.0,
+            88.5
+          ],
+          "body_bbox": [
+            44,
+            25,
+            148,
+            195
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 4,
+          "input_face": [
+            74,
+            72,
+            121,
+            108
+          ],
+          "scale": 0.9791666666666666,
+          "offset": [
+            2,
+            4
+          ],
+          "face_bbox": [
+            75,
+            75,
+            121,
+            110
+          ],
+          "face_center": [
+            98.0,
+            92.5
+          ],
+          "body_bbox": [
+            44,
+            30,
+            148,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "source_face_widths": [
+        52,
+        51,
+        52,
+        51,
+        51,
+        52
+      ],
+      "scale_for_row": 0.8932038834951457,
+      "hood_before": [
+        0.5692640692640693,
+        0.37606837606837606,
+        0.8705882352941177
+      ],
+      "hood_after": [
+        0.5897435897435898,
+        0.25116279069767444,
+        0.796078431372549
+      ],
+      "accents_before": [
+        0.23958333333333337,
+        0.5574712643678161,
+        0.7208121827411168,
+        0.8988095238095238
+      ],
+      "accents_after": [
+        0.2427184466019417,
+        0.4331797235023041,
+        0.5217391304347826,
+        0.638157894736842
+      ],
+      "frames": [
+        {
+          "frame": 0,
+          "input_face": [
+            71,
+            51,
+            123,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            68,
+            120,
+            104
+          ],
+          "face_center": [
+            97.0,
+            86.0
+          ],
+          "body_bbox": [
+            45,
+            25,
+            147,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 1,
+          "input_face": [
+            71,
+            50,
+            122,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            67,
+            120,
+            104
+          ],
+          "face_center": [
+            97.0,
+            85.5
+          ],
+          "body_bbox": [
+            46,
+            25,
+            147,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 2,
+          "input_face": [
+            71,
+            51,
+            123,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            75,
+            68,
+            120,
+            104
+          ],
+          "face_center": [
+            97.5,
+            86.0
+          ],
+          "body_bbox": [
+            46,
+            25,
+            147,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 3,
+          "input_face": [
+            71,
+            50,
+            122,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            73,
+            67,
+            120,
+            104
+          ],
+          "face_center": [
+            96.5,
+            85.5
+          ],
+          "body_bbox": [
+            46,
+            25,
+            146,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 4,
+          "input_face": [
+            71,
+            51,
+            122,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            67,
+            120,
+            104
+          ],
+          "face_center": [
+            97.0,
+            85.5
+          ],
+          "body_bbox": [
+            45,
+            25,
+            147,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 5,
+          "input_face": [
+            71,
+            51,
+            123,
+            92
+          ],
+          "scale": 0.890625,
+          "offset": [
+            11,
+            22
+          ],
+          "face_bbox": [
+            74,
+            68,
+            120,
+            104
+          ],
+          "face_center": [
+            97.0,
+            86.0
+          ],
+          "body_bbox": [
+            45,
+            25,
+            147,
+            205
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "source_face_widths": [
+        51,
+        50,
+        50,
+        50,
+        51,
+        51
+      ],
+      "scale_for_row": 0.9108910891089109,
+      "hood_before": [
+        0.5875706214689265,
+        0.3264248704663213,
+        0.8470588235294118
+      ],
+      "hood_after": [
+        0.59,
+        0.2513368983957218,
+        0.792156862745098
+      ],
+      "accents_before": [
+        0.23267326732673269,
+        0.4873417721518988,
+        0.5789473684210527,
+        0.7304964539007092
+      ],
+      "accents_after": [
+        0.23364485981308408,
+        0.4474885844748858,
+        0.5161290322580645,
+        0.63125
+      ],
+      "frames": [
+        {
+          "frame": 0,
+          "input_face": [
+            71,
+            54,
+            122,
+            94
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            74,
+            68,
+            120,
+            103
+          ],
+          "face_center": [
+            97.0,
+            85.5
+          ],
+          "body_bbox": [
+            43,
+            21,
+            150,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 1,
+          "input_face": [
+            72,
+            55,
+            122,
+            93
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            75,
+            67,
+            120,
+            103
+          ],
+          "face_center": [
+            97.5,
+            85.0
+          ],
+          "body_bbox": [
+            43,
+            21,
+            150,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 2,
+          "input_face": [
+            72,
+            54,
+            122,
+            94
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            74,
+            67,
+            120,
+            103
+          ],
+          "face_center": [
+            97.0,
+            85.0
+          ],
+          "body_bbox": [
+            43,
+            21,
+            150,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 3,
+          "input_face": [
+            72,
+            55,
+            122,
+            94
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            74,
+            68,
+            120,
+            103
+          ],
+          "face_center": [
+            97.0,
+            85.5
+          ],
+          "body_bbox": [
+            43,
+            21,
+            150,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 4,
+          "input_face": [
+            71,
+            54,
+            122,
+            94
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            74,
+            68,
+            120,
+            103
+          ],
+          "face_center": [
+            97.0,
+            85.5
+          ],
+          "body_bbox": [
+            43,
+            21,
+            149,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        },
+        {
+          "frame": 5,
+          "input_face": [
+            71,
+            54,
+            122,
+            94
+          ],
+          "scale": 0.9114583333333334,
+          "offset": [
+            9,
+            18
+          ],
+          "face_bbox": [
+            74,
+            67,
+            120,
+            103
+          ],
+          "face_center": [
+            97.0,
+            85.0
+          ],
+          "body_bbox": [
+            43,
+            21,
+            150,
+            204
+          ],
+          "clipped_alpha": false,
+          "geometry_ok": true
+        }
+      ]
+    }
+  ],
+  "all_pass": true
+}

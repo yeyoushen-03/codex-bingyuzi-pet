@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "reviewed_by": "independent consistency_final_visual_qa",
+  "date": "2026-11-23",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_axis": "Centered face, nose and chin within hood opening.",
+      "vertical_axis": "Pupils raised; nose and chin lifted.",
+      "reason": "Unmistakable up cardinal.",
+      "accepted": true
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_axis": "Nose and facial opening turn screen-right.",
+      "vertical_axis": "Raised pupils and chin.",
+      "reason": "Clear first rightward step from up.",
+      "accepted": true
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_axis": "Nose projects right; pupils favor right.",
+      "vertical_axis": "Lifted chin and raised gaze.",
+      "reason": "Both diagonal components readable.",
+      "accepted": true
+    },
+    {
+      "direction": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "right with subtle up",
+      "horizontal_axis": "Clear right-facing profile.",
+      "vertical_axis": "Small chin lift and higher pupils; weak at native size.",
+      "reason": "Accepted near-horizontal intermediate; ordered context supports up-right without reversal; isolated vertical blind ambiguity.",
+      "accepted": true
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_axis": "Nose tip projects right of face/hood center; facial opening and pupils face right.",
+      "vertical_axis": "Approximately level chin and gaze.",
+      "reason": "Unmistakable right cardinal.",
+      "accepted": true
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_axis": "Nose and facial plane remain right.",
+      "vertical_axis": "Chin lowers; pupils beneath hood brim.",
+      "reason": "Readable downward transition from right.",
+      "accepted": true
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_axis": "Lowered nose and face project right.",
+      "vertical_axis": "Hood crown dominates above bowed face.",
+      "reason": "Both diagonal components clear.",
+      "accepted": true
+    },
+    {
+      "direction": "157.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down with subtle right",
+      "horizontal_axis": "Face nearly centered; slight right orientation weak in isolation.",
+      "vertical_axis": "Strongly tucked chin and downward pupils.",
+      "reason": "Accepted near-down intermediate; no left reversal; horizontal blind ambiguity.",
+      "accepted": true
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_axis": "Face and nose centered under hood.",
+      "vertical_axis": "Hood covers brow; nose, pupils and chin angle to chest.",
+      "reason": "Unmistakable down cardinal.",
+      "accepted": true
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_axis": "Nose and exposed face begin screen-left shift.",
+      "vertical_axis": "Face bowed below hood.",
+      "reason": "Readable first leftward step from down.",
+      "accepted": true
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_axis": "Lowered nose projects left.",
+      "vertical_axis": "Tucked chin and downward gaze.",
+      "reason": "Both diagonal components readable.",
+      "accepted": true
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_axis": "Left facial plane and nose projection.",
+      "vertical_axis": "Head and gaze retain downward tilt.",
+      "reason": "Coherent approach to left.",
+      "accepted": true
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_axis": "Nose tip projects left of face/hood center; facial opening and pupils face left.",
+      "vertical_axis": "Approximately level chin and gaze.",
+      "reason": "Unmistakable left cardinal.",
+      "accepted": true
+    },
+    {
+      "direction": "292.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "left with subtle up",
+      "horizontal_axis": "Clear left-facing profile.",
+      "vertical_axis": "Small chin lift and raised pupils; weak at native size.",
+      "reason": "Accepted near-horizontal intermediate; ordered context supports up-left without reversal; vertical blind ambiguity.",
+      "accepted": true
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_axis": "Nose and pupils screen-left.",
+      "vertical_axis": "Chin and gaze lift upward.",
+      "reason": "Both diagonal components readable.",
+      "accepted": true
+    },
+    {
+      "direction": "337.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_axis": "Facial plane and nose retain slight left turn.",
+      "vertical_axis": "Raised chin and pupils.",
+      "reason": "Coherent approach to up; recentering warning accepted.",
+      "accepted": true
+    }
+  ],
+  "warnings": [
+    "067.5/292.5 vertical and157.5 horizontal evidence weak in isolated native-size views; ordered context has no wrong quadrant or reversal.",
+    "337.5→000 silhouette bounding-center8px warning accepted: feet centroid95.4→95.3, torso94.2→93.5, upper silhouette98.4→95.0px. Head/hood recentering, not conspicuous whole-body jump."
+  ]
+}

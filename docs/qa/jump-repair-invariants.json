@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "unchanged_rows": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true
+  },
+  "RGBA_roundtrip": true,
+  "interior_material": [
+    {
+      "frame": 0,
+      "visible_green_innerleg_pixels": 0
+    },
+    {
+      "frame": 1,
+      "visible_green_innerleg_pixels": 0
+    },
+    {
+      "frame": 2,
+      "visible_green_innerleg_pixels": 0
+    },
+    {
+      "frame": 3,
+      "visible_green_innerleg_pixels": 0
+    },
+    {
+      "frame": 4,
+      "visible_green_innerleg_pixels": 0
+    }
+  ],
+  "approved_proportions": {
+    "old_source_face_widths": [
+      47,
+      47,
+      46,
+      48,
+      47
+    ],
+    "new_source_face_widths": [
+      47,
+      47,
+      47,
+      47,
+      47
+    ],
+    "old_face_centers": [
+      [
+        97.0,
+        92.0
+      ],
+      [
+        97.5,
+        99.5
+      ],
+      [
+        97.5,
+        73.0
+      ],
+      [
+        96.0,
+        89.0
+      ],
+      [
+        97.5,
+        92.5
+      ]
+    ],
+    "new_face_centers": [
+      [
+        97.0,
+        92.0
+      ],
+      [
+        97.0,
+        99.5
+      ],
+      [
+        97.5,
+        73.5
+      ],
+      [
+        97.0,
+        88.5
+      ],
+      [
+        98.0,
+        92.5
+      ]
+    ]
+  },
+  "source_nonbackground_RGBA_preserved": true,
+  "local_art_synthesis": false,
+  "cleanup": "Restarted from original RAW source, keyed background extraction, one boundary pass; never additive cleanup of old final cells."
+}

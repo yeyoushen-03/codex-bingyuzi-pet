@@ -1,20 +1,43 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "reviewed_by": "independent final_visual_qa",
+  "atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
+  "reviewed_by": "independent consistency_final_visual_qa",
   "review_date": "2026-11-23",
-  "evidence": [
-    "assets/contact-sheet.png",
-    "assets/look-directions.png",
-    "assets/palette-comparison.png",
-    "assets/previews/",
-    "docs/qa/atlas-validation.json"
-  ],
-  "finding": "Final independent review confirms excess cobalt saturation eliminated; pale fabric, warm skin, dark hair, fish stripes, anatomy and motion remain coherent.",
+  "blockers": [],
+  "jump_interior": {
+    "verdict": "pass",
+    "reason": "Mint fill removed; transparent spaces follow natural inner-leg contours, no fabric perforation/detached fragment/residual patch."
+  },
+  "proportions": {
+    "verdict": "pass",
+    "reason": "Standing jump matches canonical character family; rejected tall/slim stretch absent; face, hood, torso and grounded feet coherent across states."
+  },
+  "jump_continuity": {
+    "verdict": "pass",
+    "reason": "Preparation, bend, airborne, landing, recovery coherent; stable face/prop scale and hand roles; final/first registration sound."
+  },
+  "full_regression": {
+    "verdict": "pass",
+    "reason": "Current full contact and native browser comparison reviewed; other10rows byte-identical to reviewed candidate. All9state findings and16direction semantics valid."
+  },
+  "verification": {
+    "jump_preview": "5frames140,140,140,140,280ms; every frame matches final atlas visible RGBA and alpha.",
+    "v2": "zero errors/warnings",
+    "browser": "native192x208 all57frames and9states,desktop/mobile,normal/half-speed,light/dark",
+    "native_codex_overlay": "Not inspected"
+  },
   "accepted_warnings": [
-    "Subtle secondary axes in some intermediate gaze cells",
-    "Small head recenter337.5→000 with stable feet/prop",
-    "Generated lighting differs slightly from original"
+    "067.5/292.5 vertical and157.5 horizontal components weak in isolated views; ordered context confirms without reversal.",
+    "337.5→000 silhouette metric reflects head/hood recentering with stable torso and feet.",
+    "Four-frame wave and five-frame jump retain prescribed stepped sprite cadence."
   ],
-  "repair_rows": []
+  "evidence": [
+    "contact-sheet-extended.png",
+    "previews/",
+    "browser-playback-validation.json",
+    "direction-semantics.json",
+    "jump-repair-invariants.json",
+    "jump-source-background-extraction.json"
+  ]
 }

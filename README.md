@@ -29,7 +29,9 @@ mkdir -p "${CODEX_HOME:-$HOME/.codex}/pets/little-blue-fish"
 cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME:-$HOME/.codex}/pets/little-blue-fish/"
 ```
 
-内部 ID 保留为 `little-blue-fish`，已有安装直接覆盖即可更新名称。
+内部 ID 保留为 `little-blue-fish`，已有安装直接覆盖即可更新。
+
+当前版本 **v1.0.1**：修正左跑步态与孤立颠动，重做挥手、跳跃、工作和复核；全套采用统一尺度和脚底基线，减少跨状态的比例变化及相邻帧突变。
 
 ## 动作与注视方向
 
@@ -57,7 +59,8 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 - 8 列 × 11 行，每格 192×208；57 个动作帧、16 个方向、1 个默认正面姿势。
 - 浅蓝衣服与深蓝装饰均以参考图做了配色校准，保留毛绒纹理、暖肤色与条纹。
 - 图集尺寸、单元、透明边缘已通过校验；制作阶段通过独立动作检查、配色检查和三份隔离方向盲审。
-- 少数中间方向的次要分量较轻，生成光照与参考图略有差异；原生客户端内的实际显示尚未验证。
+- 少数中间方向的次要分量较轻，生成光照与参考图略有差异。
+- 已检查实际尺寸的全部动作播放和跨状态切换；原生客户端内的实际显示尚未验证。
 
 验收记录见 [docs/qa](docs/qa/)。素材基于提供的角色参考，由 AI 辅助生成与整理。
 

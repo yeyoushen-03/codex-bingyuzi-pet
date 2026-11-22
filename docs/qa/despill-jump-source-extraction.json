@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run/consistency/new-rows-palette.png",
+  "output": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run/consistency/jump-source-extraction-clean.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 9075,
+  "decontaminated_pixels": 9075,
+  "spill_suppressed_pixels": 9075,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r4c3": 1868,
+    "r4c0": 1867,
+    "r4c4": 1839,
+    "r4c1": 1811,
+    "r4c2": 1690
+  },
+  "alpha_preserved": true
+}

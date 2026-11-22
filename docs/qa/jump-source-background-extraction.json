@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "source_sha256": "49af9058a115b61d9e46aafa6d1bb21563cc4517c259f378b992583189ff6be8",
+  "method": "source key-green hue extraction; alpha only for background, zero RGB under alpha0",
+  "selected_background_pixels": 2364141,
+  "preserved_nonbackground_pixels": 781587,
+  "nonbackground_RGBA_preserved": true,
+  "synthesized_pixels": 0,
+  "purpose": "Remove pale key backdrop in intentional between-leg negative spaces, not repaint trousers."
+}

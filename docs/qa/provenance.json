@@ -1,0 +1,43 @@
+{
+  "new_rows": {
+    "waving": {
+      "source_sha256": "b75930dda0637c5bca2ccc68d1fc5a4f5aafc5992c0861f35fa832ca6e734ed2",
+      "source_qa": "pass",
+      "coherent_source": true
+    },
+    "jumping": {
+      "source_sha256": "49af9058a115b61d9e46aafa6d1bb21563cc4517c259f378b992583189ff6be8",
+      "source_qa": "approved original coherent row; natural between-leg negative space independently confirmed",
+      "coherent_source": true,
+      "repair": "RAW source key-green hue extraction fixes pale backdrop missed by RGB threshold; no drawn/recolored body pixels",
+      "rejected_regenerations": [
+        "v2 retained mint",
+        "v3 taller/slimmer at standing"
+      ],
+      "prior_failure": "Same raw source previously produced pale-key background residue; full source art was valid, extraction repaired."
+    },
+    "running": {
+      "source_sha256": "4eb30e7cbad7517fed164bbde732992f42d0e4391b0c7ca896668edcbb85e93e",
+      "source_qa": "pass",
+      "coherent_source": true
+    },
+    "review": {
+      "source_sha256": "29dc49a465e700b7ffd31688105d842c92e41581e7b24b4f0c96d9ff6a2d51bf",
+      "source_qa": "pass",
+      "coherent_source": true
+    }
+  },
+  "retained_rows": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    9,
+    10
+  ],
+  "retained_transform": "Uniform 90% full-cell bilinear resize at shared origin; no chroma reprocessing",
+  "RGBA_roundtrip": true,
+  "atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
+  "status": "passed final independent visual QA and native browser playback"
+}

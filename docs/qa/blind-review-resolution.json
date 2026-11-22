@@ -1,15 +1,17 @@
 {
-  "decision": "accept",
+  "ok": true,
   "severity": "minor",
-  "reviewed_by": "parent",
-  "failed_checks": [
-    "horizontal-7 A: 157.5 horizontal axis ambiguous in blind majority"
+  "accepted": true,
+  "reviewed_by": "independent consistency_final_visual_qa",
+  "warnings": [
+    "067.5/292.5 vertical and157.5 horizontal evidence weak in isolated native-size views; ordered context has no wrong quadrant or reversal.",
+    "337.5→000 silhouette bounding-center8px warning accepted: feet centroid95.4→95.3, torso94.2→93.5, upper silhouette98.4→95.0px. Head/hood recentering, not conspicuous whole-body jump."
   ],
+  "cardinals": "All four pass; no override of cardinal gate.",
   "evidence": [
-    "All four cardinals pass strict-majority hard gates.",
-    "Independent labeled direction-semantics.json finds 157.5 a deeply lowered near-frontal pose with a subtle right component and no wrong quadrant.",
-    "Ordered sequence 135→157.5→180 continues downward toward frontal down without reversal.",
-    "Final continuity report has no alpha holes, prop flip or scale jump; boundary metric warning reviewed as head/hood recentering while feet/fish remain anchored."
-  ],
-  "limits": "Near-down horizontal direction is subtle; no cardinal or major defect is waived."
+    "look-directions.png",
+    "previews/look-loop.webp",
+    "look-continuity.json",
+    "direction-semantics.json"
+  ]
 }

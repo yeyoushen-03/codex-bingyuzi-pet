@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "errors": [],
+  "views": [
+    {
+      "width": 1280,
+      "height": 3779,
+      "headings": [
+        "冰鱼仔 · Codex 桌面宠物",
+        "安装",
+        "动作与注视方向",
+        "规格与验证",
+        "作者与交流"
+      ],
+      "h1Count": 1,
+      "overflow": false,
+      "failedImages": [],
+      "version": true,
+      "contact": true
+    },
+    {
+      "width": 390,
+      "height": 4118,
+      "headings": [
+        "冰鱼仔 · Codex 桌面宠物",
+        "安装",
+        "动作与注视方向",
+        "规格与验证",
+        "作者与交流"
+      ],
+      "h1Count": 1,
+      "overflow": false,
+      "failedImages": [],
+      "version": true,
+      "contact": true
+    }
+  ],
+  "screenshot_method": "Three viewport segments per width; verified one title in DOM."
+}
