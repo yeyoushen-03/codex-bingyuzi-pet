@@ -1,0 +1,15 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "horizontal-7 A: 157.5 horizontal axis ambiguous in blind majority"
+  ],
+  "evidence": [
+    "All four cardinals pass strict-majority hard gates.",
+    "Independent labeled direction-semantics.json finds 157.5 a deeply lowered near-frontal pose with a subtle right component and no wrong quadrant.",
+    "Ordered sequence 135→157.5→180 continues downward toward frontal down without reversal.",
+    "Final continuity report has no alpha holes, prop flip or scale jump; boundary metric warning reviewed as head/hood recentering while feet/fish remain anchored."
+  ],
+  "limits": "Near-down horizontal direction is subtle; no cardinal or major defect is waived."
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "date": "2026-11-23",
+  "displayName": "冰鱼仔",
+  "id": "little-blue-fish",
+  "atlas_sha256": "e3a388463bedb5e0c25b85bcf555785c8e20bc9330258ab75573171b9de2d7a9",
+  "archive": "bingyuzi-codex-v2.zip",
+  "archive_sha256": "8267232f05a451582f2c0319c865377e6cbc4240a44da86c775a63aeb1a8b11d",
+  "checks": {
+    "manifest": true,
+    "v2_atlas": true,
+    "installed_bytes_match": true,
+    "zip_bytes_match": true,
+    "readme_local_links": true,
+    "contact_qr_original_bytes": true,
+    "readme_browser_desktop_1280": true,
+    "readme_browser_mobile_390": true,
+    "native_codex_display": false
+  },
+  "limits": [
+    "Native Codex display has not been verified.",
+    "Some intermediate gaze components are subtle; generated lighting differs slightly from the reference."
+  ]
+}
