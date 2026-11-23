@@ -28,9 +28,10 @@
     },
     "running-left": {
       "source_sha256": null,
-      "source_qa": "exact per-frame horizontal mirror of approved running-right; independently approved by user due five failed generated variants",
+      "source_qa": "Independent left-facing lower-body repair using the original character identity and held-fish side.",
       "coherent_source": true,
-      "method": "Exact horizontal mirroring of each approved right-run cell in original frame order; no color/alpha/scale operations."
+      "method": "Locked upper body, independently redrew frames 4-7 lower body, repaired frame 6 duplicate hand, unified face registration, calibrated palette, then applied edge-local chroma cleanup.",
+      "row2_is_mirror": false
     }
   },
   "retained_rows": [
@@ -47,7 +48,7 @@
   ],
   "retained_transform": "Uniform 90% full-cell bilinear resize at shared origin; no chroma reprocessing",
   "RGBA_roundtrip": true,
-  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "atlas_sha256": "c479f1bb6f6a18ccfc3a2de0ba3a26e2dbb4f52e45dc47afacd587f47d6f6b49",
   "status": "Final targeted independent gait/identity QA and browser playback passed; native Codex overlay unverified.",
   "previous_atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
   "left_stability_repair": {
@@ -58,7 +59,7 @@
     "review": "left-stability-registration-invariants.json"
   },
   "left_gait_repair": {
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "other10rows_rgba_exact": true,
     "same_timeline_ms": [
       120,

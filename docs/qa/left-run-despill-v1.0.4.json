@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run-single-poses/candidate-running-left-192.png",
+  "output": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run-single-poses/candidate-running-left-192-despill2.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1.0,
+  "edge_radius": 4,
+  "spill_tolerance": 0.12,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 15699,
+  "decontaminated_pixels": 15527,
+  "spill_suppressed_pixels": 15699,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c1": 2310,
+    "r0c0": 2257,
+    "r0c3": 2222,
+    "r0c2": 2158,
+    "r0c4": 1844,
+    "r0c5": 1667,
+    "r0c7": 1651,
+    "r0c6": 1590
+  },
+  "alpha_preserved": true
+}

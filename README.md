@@ -31,7 +31,7 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 
 内部 ID 保留为 `little-blue-fish`，已有安装直接覆盖即可更新。
 
-当前版本 **v1.0.3**：左跑逐帧镜像已验收的右跑，修复交替步态、节奏、比例与跳帧；按用户接受的取舍，抱鱼在左跑时换到画面另一侧，其他十行图集像素保持不变。
+当前版本 **v1.0.4**：左跑改为独立朝左步态，保持抱鱼在原侧；修复左右支撑腿交替、帧间比例和第 6 帧手部重影，其他十行图集像素保持不变。
 
 ## 动作与注视方向
 
@@ -39,7 +39,7 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 | --- | --- | ---: |
 | 待机 `idle` | 轻微呼吸、自然眨眼 | 6 |
 | 向右 `running-right` | 向右交替迈步 | 8 |
-| 向左 `running-left` | 右跑动作逐帧镜像，抱鱼随镜像换到另一侧 | 8 |
+| 向左 `running-left` | 独立朝左交替步态，抱鱼保持原侧 | 8 |
 | 挥手 `waving` | 温和挥手 | 4 |
 | 跳跃 `jumping` | 蓄力、腾空、落地 | 5 |
 | 失败 `failed` | 低头后恢复站姿 | 8 |

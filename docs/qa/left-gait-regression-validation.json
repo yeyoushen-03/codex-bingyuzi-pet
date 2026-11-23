@@ -14,7 +14,9 @@
     "9": true,
     "10": true
   },
-  "row2_exact_mirror_of_row1": true,
+  "version": "v1.0.4",
+  "row2_exact_mirror_of_row1": false,
+  "row2_method": "Independent lower-body repair with locked upper-body identity and deterministic registration.",
   "timing_ms": [
     120,
     120,
@@ -25,6 +27,6 @@
     120,
     220
   ],
-  "accepted_tradeoff": "Left run is a horizontal mirror of right run; fish and holding hand swap screen side by user approval.",
+  "other10rows_rgba_exact": true,
   "native_codex_display_verified": false
 }

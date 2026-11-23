@@ -1,0 +1,53 @@
+{
+  "base": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/final/spritesheet-extended.webp",
+  "output": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run-single-poses/candidate-spritesheet-extended-v2.webp",
+  "size": [
+    1536,
+    2288
+  ],
+  "replaced_row": 2,
+  "other_rows_unchanged": true,
+  "row_checks": [
+    {
+      "row": 0,
+      "unchanged": true
+    },
+    {
+      "row": 1,
+      "unchanged": true
+    },
+    {
+      "row": 3,
+      "unchanged": true
+    },
+    {
+      "row": 4,
+      "unchanged": true
+    },
+    {
+      "row": 5,
+      "unchanged": true
+    },
+    {
+      "row": 6,
+      "unchanged": true
+    },
+    {
+      "row": 7,
+      "unchanged": true
+    },
+    {
+      "row": 8,
+      "unchanged": true
+    },
+    {
+      "row": 9,
+      "unchanged": true
+    },
+    {
+      "row": 10,
+      "unchanged": true
+    }
+  ],
+  "sha256": "c479f1bb6f6a18ccfc3a2de0ba3a26e2dbb4f52e45dc47afacd587f47d6f6b49"
+}

@@ -1,9 +1,8 @@
 {
   "ok": true,
-  "version": "v1.0.3",
-  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
-  "archive_sha256": "9f559fa9c907b70638fbd7cc4082607fafdd38e7a05c62f51df286220300a5d7",
-  "scope": "Row2 is an exact per-frame horizontal mirror of approved row1; other ten rows RGBA byte-identical to approved v1.0.2.",
+  "version": "v1.0.4",
+  "atlas_sha256": "c479f1bb6f6a18ccfc3a2de0ba3a26e2dbb4f52e45dc47afacd587f47d6f6b49",
+  "scope": "Row 2 is an independently repaired left-facing run; the other ten rows are RGBA-identical to the previous formal atlas.",
   "native_codex_display_verified": false,
   "browser_targeted_playback": true,
   "independent_gait_visual_qa": true,
