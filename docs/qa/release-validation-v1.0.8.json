@@ -35,7 +35,8 @@
     "contains_manifest_and_spritesheet": true
   },
   "remote_verification": {
-    "main_commit": "ca164ce503c6228188dce3adbe06eed98aa9dd17",
+    "release_commit": "ca164ce503c6228188dce3adbe06eed98aa9dd17",
+    "main_branch_contains_release_commit": true,
     "tag": "v1.0.8",
     "release_archive_sha256_matches_local": true,
     "downloaded_atlas_sha256": "4eed1b662943d1e8c554595626d5ec52c0e0c7b145c47b03248aa687ca2938e9"
