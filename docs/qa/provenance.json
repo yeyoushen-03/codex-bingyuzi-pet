@@ -38,6 +38,14 @@
   ],
   "retained_transform": "Uniform 90% full-cell bilinear resize at shared origin; no chroma reprocessing",
   "RGBA_roundtrip": true,
-  "atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
-  "status": "passed final independent visual QA and native browser playback"
+  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
+  "status": "passed final independent visual QA and native browser playback",
+  "previous_atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
+  "left_stability_repair": {
+    "version": "v1.0.2",
+    "method": "Integer whole-frame translation: frame3 y+2, frame7 y+1; no scaling, recolor or extra chroma pass.",
+    "other10rows_rgba_exact": true,
+    "per_frame_visible_rgba_preserved": true,
+    "review": "left-stability-registration-invariants.json"
+  }
 }

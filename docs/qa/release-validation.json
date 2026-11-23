@@ -1,32 +1,93 @@
 {
   "ok": true,
-  "date": "2026-11-23",
-  "version": "v1.0.1",
-  "displayName": "冰鱼仔",
-  "id": "little-blue-fish",
-  "atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
-  "archive": "bingyuzi-codex-v2.zip",
-  "archive_sha256": "d2117dfde758c78445f6df3e615157ee6eb91981d714b0eef0b05a14368a9e0f",
-  "checks": {
-    "manifest": true,
-    "v2_atlas": true,
-    "installed_bytes_match": true,
-    "zip_bytes_match": true,
-    "readme_local_links": true,
-    "contact_qr_original_bytes": true,
-    "all57_frames_native_size_played": true,
-    "all9_cross_state_played": true,
-    "desktop_mobile_no_overflow": true,
-    "independent_visual_qa": true,
-    "native_codex_display": false,
-    "readme_browser_desktop_1280": true,
-    "readme_browser_mobile_390": true,
-    "installed_manifest_bytes_match": true
+  "version": "v1.0.2",
+  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
+  "archive_sha256": "b6744071dc09e9972e541c18acf000c28a8b071be7fe57882463bfea877549ba",
+  "geometry": {
+    "ok": true,
+    "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
+    "criteria": {
+      "face_widths45or46": true,
+      "adjacent_face_y_max1_5": true,
+      "halfcycle_highpoints_within1": true,
+      "feet_below206": true,
+      "adjacent_feet_delta_max3": true,
+      "pixels_exact_no_resampling": true,
+      "other10rows_exact": true
+    },
+    "before": {
+      "face_center_y": [
+        100.0,
+        101.5,
+        100.0,
+        97.0,
+        100.0,
+        101.5,
+        100.0,
+        97.5
+      ],
+      "adjacent_face_y_max": 3.0,
+      "bbox_bottom": [
+        201,
+        203,
+        203,
+        203,
+        202,
+        202,
+        203,
+        200
+      ]
+    },
+    "after": {
+      "face_center_y": [
+        100.0,
+        101.5,
+        100.0,
+        99.0,
+        100.0,
+        101.5,
+        100.0,
+        98.5
+      ],
+      "adjacent_face_y_max": 1.5,
+      "bbox_bottom": [
+        201,
+        203,
+        203,
+        205,
+        202,
+        202,
+        203,
+        201
+      ],
+      "adjacent_foot_y_max": 3,
+      "face_widths": [
+        46,
+        46,
+        46,
+        46,
+        45,
+        46,
+        46,
+        45
+      ]
+    },
+    "timing_unchanged": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "scope": "Reduced highpoint amplitude; natural periodic bob retained. This is not evidence of native client cache refresh."
   },
-  "limits": [
-    "067.5/292.5 vertical and157.5 horizontal components weak in isolated views; ordered context confirms without reversal.",
-    "337.5→000 silhouette metric reflects head/hood recentering with stable torso and feet.",
-    "Four-frame wave and five-frame jump retain prescribed stepped sprite cadence.",
-    "Native Codex overlay display has not been verified."
-  ]
+  "scope": "Only row2 frames3/7 translated; ten other rows byte-identical to approved v1.0.1.",
+  "native_codex_display_verified": false,
+  "browser_targeted_playback": true,
+  "independent_sequence_visual_qa": true,
+  "package_bytes_exact": true,
+  "qr_preserved": true
 }
