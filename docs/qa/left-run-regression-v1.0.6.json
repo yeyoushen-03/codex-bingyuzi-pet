@@ -1,0 +1,77 @@
+{
+  "candidate": "pets/little-blue-fish/run/repairs/2026-11-23-left-run-size-fix/final-candidate-v1.0.6.webp",
+  "sha256": "0ca7a505ec06d53fe2f4556bfd570a706fdb230dfa9adfc9263855b25b5584d3",
+  "size": [
+    1536,
+    2288
+  ],
+  "rgba_roundtrip_exact": true,
+  "rows": [
+    {
+      "row": 0,
+      "unchanged": true,
+      "sha_before": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d",
+      "sha_after": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d"
+    },
+    {
+      "row": 1,
+      "unchanged": true,
+      "sha_before": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365",
+      "sha_after": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365"
+    },
+    {
+      "row": 2,
+      "unchanged": false,
+      "sha_before": "f86e0a8a0400c25bb740d4d7079b159b4202337aa66fe5385761daae262dc798",
+      "sha_after": "e9f5483cacd3395c62143ccacab2ffd76f553af4bce146aaa4021696903df71e"
+    },
+    {
+      "row": 3,
+      "unchanged": true,
+      "sha_before": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e",
+      "sha_after": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e"
+    },
+    {
+      "row": 4,
+      "unchanged": true,
+      "sha_before": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996",
+      "sha_after": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996"
+    },
+    {
+      "row": 5,
+      "unchanged": true,
+      "sha_before": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc",
+      "sha_after": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc"
+    },
+    {
+      "row": 6,
+      "unchanged": true,
+      "sha_before": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150",
+      "sha_after": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150"
+    },
+    {
+      "row": 7,
+      "unchanged": true,
+      "sha_before": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3",
+      "sha_after": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3"
+    },
+    {
+      "row": 8,
+      "unchanged": true,
+      "sha_before": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf",
+      "sha_after": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf"
+    },
+    {
+      "row": 9,
+      "unchanged": true,
+      "sha_before": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5",
+      "sha_after": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5"
+    },
+    {
+      "row": 10,
+      "unchanged": true,
+      "sha_before": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3",
+      "sha_after": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3"
+    }
+  ]
+}
