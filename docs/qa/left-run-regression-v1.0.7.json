@@ -1,0 +1,74 @@
+{
+  "candidate": "/Users/yeyou/Documents/codex\u4f18\u5316/pets/little-blue-fish/run/repairs/2026-11-23-left-run-final/final/spritesheet-extended.webp",
+  "sha256": "833c5b779c25bfe9500ad928bacc7d5987f9ea75241a248ac2b1cbe2569605e1",
+  "rgba_exact": true,
+  "other_rows_unchanged": true,
+  "rows": [
+    {
+      "row": 0,
+      "unchanged": true,
+      "before_sha": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d",
+      "after_sha": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d"
+    },
+    {
+      "row": 1,
+      "unchanged": true,
+      "before_sha": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365",
+      "after_sha": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365"
+    },
+    {
+      "row": 2,
+      "unchanged": false,
+      "before_sha": "e9f5483cacd3395c62143ccacab2ffd76f553af4bce146aaa4021696903df71e",
+      "after_sha": "d59e055be93c11936b73514a360561949a1f1d0d1eb04f6d987dd0ac58447f7c"
+    },
+    {
+      "row": 3,
+      "unchanged": true,
+      "before_sha": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e",
+      "after_sha": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e"
+    },
+    {
+      "row": 4,
+      "unchanged": true,
+      "before_sha": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996",
+      "after_sha": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996"
+    },
+    {
+      "row": 5,
+      "unchanged": true,
+      "before_sha": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc",
+      "after_sha": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc"
+    },
+    {
+      "row": 6,
+      "unchanged": true,
+      "before_sha": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150",
+      "after_sha": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150"
+    },
+    {
+      "row": 7,
+      "unchanged": true,
+      "before_sha": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3",
+      "after_sha": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3"
+    },
+    {
+      "row": 8,
+      "unchanged": true,
+      "before_sha": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf",
+      "after_sha": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf"
+    },
+    {
+      "row": 9,
+      "unchanged": true,
+      "before_sha": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5",
+      "after_sha": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5"
+    },
+    {
+      "row": 10,
+      "unchanged": true,
+      "before_sha": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3",
+      "after_sha": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3"
+    }
+  ]
+}

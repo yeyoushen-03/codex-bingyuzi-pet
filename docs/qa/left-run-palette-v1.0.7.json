@@ -1,0 +1,24 @@
+{
+  "target_hood_hsv": [
+    0.5895061728395062,
+    0.24064171122994643,
+    0.8
+  ],
+  "alpha_preserved": true,
+  "method": "smooth blue-material HSV mapping; warm hues and dark hair excluded",
+  "rows": [
+    {
+      "row": 2,
+      "before": [
+        0.5990338164251208,
+        0.3111678004535148,
+        0.8156862745098039
+      ],
+      "after": [
+        0.5897435897435898,
+        0.25000000000000006,
+        0.8
+      ]
+    }
+  ]
+}
