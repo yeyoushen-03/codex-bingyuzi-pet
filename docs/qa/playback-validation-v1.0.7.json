@@ -1,0 +1,15 @@
+{
+  "candidate": "final/spritesheet-extended.webp",
+  "browser": "Codex in-app browser via local HTTP server",
+  "normal_speed_preview": "qa/previews/running-left.gif",
+  "observed": {
+    "all_eight_frames_loaded": true,
+    "loop_7_to_0_visible": true,
+    "two_legs_two_slippers_readable": true,
+    "body_width_stable": true,
+    "fish_screen_side_preserved": true,
+    "no_multi_leg_artifact_observed": true
+  },
+  "note": "Visual playback checked at normal GIF timing; half-speed preview is available from the same extracted frames during QA.",
+  "checked_at": "2026-11-24"
+}
