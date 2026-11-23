@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "RGBA_roundtrip_exact": true,
+  "other10rows_rgba_exact": {
+    "0": true,
+    "1": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true
+  },
+  "row2_exact_mirror_of_row1": true,
+  "timing_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "accepted_tradeoff": "Left run is a horizontal mirror of right run; fish and holding hand swap screen side by user approval.",
+  "native_codex_display_verified": false
+}

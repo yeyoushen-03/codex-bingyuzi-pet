@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "source_contact_sheet": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/repairs/2026-11-23-left-gait-cadence/qa/mirror-option-contact.png",
+  "source_preview": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/repairs/2026-11-23-left-gait-cadence/qa/mirror-option-sync.gif",
+  "invariants": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/repairs/2026-11-23-left-gait-cadence/qa/mirror-option-invariants.json",
+  "verdict": "pass",
+  "qa_scope": "Independent read-only review of mirror candidate against current approved right-running row. The user has accepted the known mirrored-hand/held-fish screen-side tradeoff. No source or formal atlas was modified in this task.",
+  "acceptance": {
+    "geometry": "pass — invariants report every left frame is an exact horizontal mirror of the current right frame; contact sheet shows matching whole-body silhouette, frame scale, baseline and crop.",
+    "frame_order": "pass — frame order preserved F0-F7; mirrored contact sheet retains the right row sequence rather than reversing frame order.",
+    "timing": "pass — preview has 8 frames with 120 ms for F0-F6 and 220 ms for F7, total 1060 ms, matching approved right timing.",
+    "phase_and_cadence": "pass by exact derivation — lower-body support/swing phase, 0/4 half-cycle relation and 7→0 seam are exactly those of approved right row under horizontal reflection. This does not claim independent anatomical superiority of the source right row; it confirms no new left-row phase defect or cadence drift was introduced.",
+    "limb_count": "pass by exact derivation and visual contact-sheet inspection — no third hand, extra leg, duplicated shoe or detached limb is introduced by the mirror operation. Existing approved-right silhouette is reflected as a whole.",
+    "direction": "pass — reflected character travels/faces screen-left in image coordinates. Foot and body motion are the horizontal reflection of screen-right reference; no frame-level reversal artifact observed.",
+    "identity_and_scale": "pass — face, hat, hair, plush material, palette, body scale, fish prop and relative anchor geometry remain identical under reflection.",
+    "color_and_transparency": "pass for review candidate — no visible color drift between mirror and current right reference in contact sheet; preview retains transparent background metadata. Final atlas/v2 validation must still be rerun after assembly.",
+    "preview_loop": "pass for source preview — GIF decodes as 8 frames and loops; static contact and preview show no introduced jump or size pop attributable to mirroring."
+  },
+  "accepted_tradeoff": {
+    "status": "accepted_by_user",
+    "detail": "Horizontal reflection moves the held fish and holding hand to the opposite screen side in the left run. This is intentional and accepted for this release option; it is not counted as an unknown defect.",
+    "not_verified": "Whether the user later prefers side-consistent holding-hand semantics remains a product choice outside this QA; this QA does not override the explicit acceptance."
+  },
+  "limitations_and_next_checks": [
+    "This is a deterministic mirror option, not a newly generated independent left anatomy solution. Its phase quality is inherited from the approved right row.",
+    "Contact sheet and GIF QA do not replace final 192x208 extraction, transparent WebP/PNG decoding checks, v2 atlas validation, and assembled-row playback in the final atlas.",
+    "No claim is made about the native Codex overlay cache until parent workflow installs/refreshes and observes it."
+  ],
+  "decision": "The mirror option is eligible for assembly as the accepted left-run candidate, subject to parent workflow final extraction, atlas validation, and final playback checks. Do not treat this report as installation or publication approval by itself.",
+  "source_invariants_recorded": {
+    "status": "review_only_pending_user_handedness_choice",
+    "not_installed": true,
+    "not_published": true,
+    "frame_order_preserved": true,
+    "every_left_frame_exact_horizontal_mirror_of_right": true,
+    "timing": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "tradeoff": "Held fish and holding hand appear on opposite screen side in left run; all costume, face, geometry, motion and colors mirror together."
+  }
+}

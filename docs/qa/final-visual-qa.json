@@ -1,21 +1,21 @@
 {
   "ok": true,
-  "visual_qa": "pass",
-  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
-  "reviewed_by": "independent left_stability_diagnosis",
-  "method": "Native-size sequential frames, magnified seams, and exact artifact verification. Independent continuous browser playback was blocked; primary browser checks provide separate playback evidence.",
-  "findings": [
-    "Head/face maximum adjacent vertical step reduced3px to1.5px with periodic bob retained.",
-    "Head/hood highpoint difference between frames3/7 reduced to1px.",
-    "Feet bottom201/203/203/205/202/202/203/201; maximum adjacent3px, no worse than old version;7\u21920 continuous201\u2192201.",
-    "No clipping, stretch, prop drift or new visible hue change.",
-    "Only frames3/7 moved; other6left frames and10other rows exact."
-  ],
-  "accepted_warnings": [
-    "Original source foot pose difference between two halfcycles remains.",
-    "Small cyclic bob and prescribed final220ms remain.",
-    "This pass covers targeted improvement, not proof of native client cached asset refresh."
-  ],
-  "native_overlay_verified": false,
-  "regression_basis": "v1.0.1 independent full-atlas QA preserved by byte equality outside two integer-translated cells."
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "gait": "Exact horizontal mirror of approved right run, frame order and timing retained.",
+  "handedness_tradeoff": "Fish and holding hand are on the opposite screen side during left run; explicitly accepted by user.",
+  "other10rows_rgba_exact": true,
+  "v2_validation": true,
+  "browser_playback": true,
+  "independent_source_and_final_review": true,
+  "native_codex_overlay_verified": false,
+  "synchronized_timing_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ]
 }

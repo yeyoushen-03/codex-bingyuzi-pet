@@ -1,0 +1,18 @@
+{
+  "status": "review_only_pending_user_handedness_choice",
+  "not_installed": true,
+  "not_published": true,
+  "frame_order_preserved": true,
+  "every_left_frame_exact_horizontal_mirror_of_right": true,
+  "timing": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "tradeoff": "Held fish and holding hand appear on opposite screen side in left run; all costume, face, geometry, motion and colors mirror together."
+}

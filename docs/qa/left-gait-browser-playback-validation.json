@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "browser": "Chrome",
+  "errors": [],
+  "views": [
+    {
+      "width": 1040,
+      "overflow": false,
+      "canvasSizes": [
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ]
+      ],
+      "canvases": [
+        {
+          "id": "before",
+          "rgba": true
+        },
+        {
+          "id": "left",
+          "rgba": true
+        },
+        {
+          "id": "right",
+          "rgba": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "canvasSizes": [
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ]
+      ],
+      "canvases": [
+        {
+          "id": "before",
+          "rgba": true
+        },
+        {
+          "id": "left",
+          "rgba": true
+        },
+        {
+          "id": "right",
+          "rgba": true
+        }
+      ]
+    }
+  ],
+  "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "modes": [
+    "speed:0.5",
+    "theme",
+    "travel:true"
+  ],
+  "timeline": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "all_rows_same_timeline": true,
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "native_codex_verified": false
+}

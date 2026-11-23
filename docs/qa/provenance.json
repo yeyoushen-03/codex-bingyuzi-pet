@@ -25,27 +25,51 @@
       "source_sha256": "29dc49a465e700b7ffd31688105d842c92e41581e7b24b4f0c96d9ff6a2d51bf",
       "source_qa": "pass",
       "coherent_source": true
+    },
+    "running-left": {
+      "source_sha256": null,
+      "source_qa": "exact per-frame horizontal mirror of approved running-right; independently approved by user due five failed generated variants",
+      "coherent_source": true,
+      "method": "Exact horizontal mirroring of each approved right-run cell in original frame order; no color/alpha/scale operations."
     }
   },
   "retained_rows": [
     0,
     1,
-    2,
+    3,
+    4,
     5,
     6,
+    7,
+    8,
     9,
     10
   ],
   "retained_transform": "Uniform 90% full-cell bilinear resize at shared origin; no chroma reprocessing",
   "RGBA_roundtrip": true,
-  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
-  "status": "passed final independent visual QA and native browser playback",
-  "previous_atlas_sha256": "4d30211792c57cd9b442f0b7de1d74e1d0f0f38931870a27bf7f60015db3fc86",
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "status": "Final targeted independent gait/identity QA and browser playback passed; native Codex overlay unverified.",
+  "previous_atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
   "left_stability_repair": {
     "version": "v1.0.2",
     "method": "Integer whole-frame translation: frame3 y+2, frame7 y+1; no scaling, recolor or extra chroma pass.",
     "other10rows_rgba_exact": true,
     "per_frame_visible_rgba_preserved": true,
     "review": "left-stability-registration-invariants.json"
+  },
+  "left_gait_repair": {
+    "version": "v1.0.3",
+    "other10rows_rgba_exact": true,
+    "same_timeline_ms": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "independent_qa": "left-gait-final-visual-qa.json"
   }
 }

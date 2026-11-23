@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "gait": "Exact horizontal mirror of approved right run, frame order and timing retained.",
+  "handedness_tradeoff": "Fish and holding hand are on the opposite screen side during left run; explicitly accepted by user.",
+  "other10rows_rgba_exact": true,
+  "v2_validation": true,
+  "browser_playback": true,
+  "independent_source_and_final_review": true,
+  "native_codex_overlay_verified": false,
+  "synchronized_timing_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ]
+}

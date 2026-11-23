@@ -31,7 +31,7 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 
 内部 ID 保留为 `little-blue-fish`，已有安装直接覆盖即可更新。
 
-当前版本 **v1.0.2**：降低左跑两个高点帧的突跳，保留自然跑步起伏。角色尺寸、配色、脚步顺序和播放时长保持一致；其他动作沿用 v1.0.1。
+当前版本 **v1.0.3**：左跑逐帧镜像已验收的右跑，修复交替步态、节奏、比例与跳帧；按用户接受的取舍，抱鱼在左跑时换到画面另一侧，其他十行图集像素保持不变。
 
 ## 动作与注视方向
 
@@ -39,7 +39,7 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 | --- | --- | ---: |
 | 待机 `idle` | 轻微呼吸、自然眨眼 | 6 |
 | 向右 `running-right` | 向右交替迈步 | 8 |
-| 向左 `running-left` | 向左交替迈步，抱鱼手保持一致 | 8 |
+| 向左 `running-left` | 右跑动作逐帧镜像，抱鱼随镜像换到另一侧 | 8 |
 | 挥手 `waving` | 温和挥手 | 4 |
 | 跳跃 `jumping` | 蓄力、腾空、落地 | 5 |
 | 失败 `failed` | 低头后恢复站姿 | 8 |
@@ -49,7 +49,7 @@ cp codex-bingyuzi-pet/pet.json codex-bingyuzi-pet/spritesheet.webp "${CODEX_HOME
 
 注视方向按顺时针排列，每隔 22.5° 一格；0° 向上，90° 向右，180° 向下，270° 向左。动作触发与方向选择由客户端控制。
 
-[全部动画预览](assets/previews/) · [16 个方向](assets/look-directions.png) · [原图配色对照](assets/palette-comparison.png)
+[左右同步对比](assets/previews/left-right-synchronized.gif) · [全部动画预览](assets/previews/) · [16 个方向](assets/look-directions.png) · [原图配色对照](assets/palette-comparison.png)
 
 ![全部动作与方向](assets/contact-sheet.png)
 

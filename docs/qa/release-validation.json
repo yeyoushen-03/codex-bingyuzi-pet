@@ -1,93 +1,12 @@
 {
   "ok": true,
-  "version": "v1.0.2",
-  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
-  "archive_sha256": "b6744071dc09e9972e541c18acf000c28a8b071be7fe57882463bfea877549ba",
-  "geometry": {
-    "ok": true,
-    "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4",
-    "criteria": {
-      "face_widths45or46": true,
-      "adjacent_face_y_max1_5": true,
-      "halfcycle_highpoints_within1": true,
-      "feet_below206": true,
-      "adjacent_feet_delta_max3": true,
-      "pixels_exact_no_resampling": true,
-      "other10rows_exact": true
-    },
-    "before": {
-      "face_center_y": [
-        100.0,
-        101.5,
-        100.0,
-        97.0,
-        100.0,
-        101.5,
-        100.0,
-        97.5
-      ],
-      "adjacent_face_y_max": 3.0,
-      "bbox_bottom": [
-        201,
-        203,
-        203,
-        203,
-        202,
-        202,
-        203,
-        200
-      ]
-    },
-    "after": {
-      "face_center_y": [
-        100.0,
-        101.5,
-        100.0,
-        99.0,
-        100.0,
-        101.5,
-        100.0,
-        98.5
-      ],
-      "adjacent_face_y_max": 1.5,
-      "bbox_bottom": [
-        201,
-        203,
-        203,
-        205,
-        202,
-        202,
-        203,
-        201
-      ],
-      "adjacent_foot_y_max": 3,
-      "face_widths": [
-        46,
-        46,
-        46,
-        46,
-        45,
-        46,
-        46,
-        45
-      ]
-    },
-    "timing_unchanged": [
-      120,
-      120,
-      120,
-      120,
-      120,
-      120,
-      120,
-      220
-    ],
-    "scope": "Reduced highpoint amplitude; natural periodic bob retained. This is not evidence of native client cache refresh."
-  },
-  "scope": "Only row2 frames3/7 translated; ten other rows byte-identical to approved v1.0.1.",
+  "version": "v1.0.3",
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "archive_sha256": "9f559fa9c907b70638fbd7cc4082607fafdd38e7a05c62f51df286220300a5d7",
+  "scope": "Row2 is an exact per-frame horizontal mirror of approved row1; other ten rows RGBA byte-identical to approved v1.0.2.",
   "native_codex_display_verified": false,
   "browser_targeted_playback": true,
-  "independent_sequence_visual_qa": true,
+  "independent_gait_visual_qa": true,
   "package_bytes_exact": true,
   "qr_preserved": true
 }
