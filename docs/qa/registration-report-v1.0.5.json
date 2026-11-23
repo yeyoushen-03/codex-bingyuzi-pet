@@ -1,0 +1,287 @@
+{
+  "source": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/final/spritesheet-extended.webp",
+  "candidate": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/repairs/2026-11-23-left-run-size-fix/candidate-spritesheet-extended.webp",
+  "scale": 0.865,
+  "target_bottom": 203,
+  "registration": [
+    {
+      "frame": 0,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        18,
+        9,
+        184,
+        203
+      ],
+      "scaled_bbox": [
+        15,
+        7,
+        159,
+        176
+      ],
+      "final_bbox": [
+        28,
+        34,
+        172,
+        203
+      ]
+    },
+    {
+      "frame": 1,
+      "scale": 0.865,
+      "offset": [
+        13,
+        25
+      ],
+      "source_bbox": [
+        24,
+        3,
+        166,
+        206
+      ],
+      "scaled_bbox": [
+        20,
+        2,
+        144,
+        178
+      ],
+      "final_bbox": [
+        33,
+        27,
+        157,
+        203
+      ]
+    },
+    {
+      "frame": 2,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        28,
+        6,
+        163,
+        203
+      ],
+      "scaled_bbox": [
+        24,
+        5,
+        141,
+        176
+      ],
+      "final_bbox": [
+        37,
+        32,
+        154,
+        203
+      ]
+    },
+    {
+      "frame": 3,
+      "scale": 0.865,
+      "offset": [
+        13,
+        24
+      ],
+      "source_bbox": [
+        25,
+        0,
+        169,
+        207
+      ],
+      "scaled_bbox": [
+        21,
+        0,
+        147,
+        179
+      ],
+      "final_bbox": [
+        34,
+        24,
+        160,
+        203
+      ]
+    },
+    {
+      "frame": 4,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        28,
+        6,
+        181,
+        203
+      ],
+      "scaled_bbox": [
+        24,
+        5,
+        157,
+        176
+      ],
+      "final_bbox": [
+        37,
+        32,
+        170,
+        203
+      ]
+    },
+    {
+      "frame": 5,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        26,
+        5,
+        166,
+        203
+      ],
+      "scaled_bbox": [
+        22,
+        4,
+        144,
+        176
+      ],
+      "final_bbox": [
+        35,
+        31,
+        157,
+        203
+      ]
+    },
+    {
+      "frame": 6,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        25,
+        4,
+        165,
+        203
+      ],
+      "scaled_bbox": [
+        21,
+        3,
+        143,
+        176
+      ],
+      "final_bbox": [
+        34,
+        30,
+        156,
+        203
+      ]
+    },
+    {
+      "frame": 7,
+      "scale": 0.865,
+      "offset": [
+        13,
+        27
+      ],
+      "source_bbox": [
+        28,
+        5,
+        165,
+        203
+      ],
+      "scaled_bbox": [
+        24,
+        4,
+        143,
+        176
+      ],
+      "final_bbox": [
+        37,
+        31,
+        156,
+        203
+      ]
+    }
+  ],
+  "row_regression": [
+    {
+      "row": 0,
+      "sha_before": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d",
+      "sha_after": "f79c60a6c572dd70f480da1510149309a4db8267a9dc9f51221796f5a676b32d",
+      "unchanged": true
+    },
+    {
+      "row": 1,
+      "sha_before": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365",
+      "sha_after": "2268b8930db9caa075de3fa70f1a48d248bde7b622a0545ad8d36b8ae22a4365",
+      "unchanged": true
+    },
+    {
+      "row": 2,
+      "sha_before": "9d73d328378487826ba9e94e1cf995b1d9ccbe5526f5902c088a29e60e361724",
+      "sha_after": "7788a975ad02008eaef8a99cf13f7afc062f6d1397b09e837611a336d7e6996c",
+      "unchanged": false
+    },
+    {
+      "row": 3,
+      "sha_before": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e",
+      "sha_after": "383d354ef3d021a21cfca76f519c35e94d96385f4f148ba15aff404cbfc8ae9e",
+      "unchanged": true
+    },
+    {
+      "row": 4,
+      "sha_before": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996",
+      "sha_after": "4802e0de861337ebcc47aa7339eb3f35a5c73a8be33390329205462bcf3d7996",
+      "unchanged": true
+    },
+    {
+      "row": 5,
+      "sha_before": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc",
+      "sha_after": "9d288d298981b200e842b903709eef47bbed34fe4914227c8155c208ee8bc1cc",
+      "unchanged": true
+    },
+    {
+      "row": 6,
+      "sha_before": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150",
+      "sha_after": "242a9d692ee83713087714231d111fb817b1b52b16b17bb35efdeb6b3f79c150",
+      "unchanged": true
+    },
+    {
+      "row": 7,
+      "sha_before": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3",
+      "sha_after": "02aa7e8aab2713f2b1daa432b83ce68dd8b23549928835807072b7390a2f03a3",
+      "unchanged": true
+    },
+    {
+      "row": 8,
+      "sha_before": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf",
+      "sha_after": "41e8f251fcf2f39dbefc276d7f21835967f924b2d9287938542d6ff26f11edbf",
+      "unchanged": true
+    },
+    {
+      "row": 9,
+      "sha_before": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5",
+      "sha_after": "5b2e085a74ab6af61a28cef45907c53675b275cad54430e0c56864cd210c5ec5",
+      "unchanged": true
+    },
+    {
+      "row": 10,
+      "sha_before": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3",
+      "sha_after": "1bc64190e66cb7d92ce74e4fa76352cc762b1416fcfac8a882c911010f611ec3",
+      "unchanged": true
+    }
+  ],
+  "rgba_roundtrip_exact": true,
+  "source_sha256": "c479f1bb6f6a18ccfc3a2de0ba3a26e2dbb4f52e45dc47afacd587f47d6f6b49",
+  "candidate_sha256": "4a74a5201a013eda5b508746b70c6e590a4975635d6e8d3b855c1c5550cf853b"
+}
