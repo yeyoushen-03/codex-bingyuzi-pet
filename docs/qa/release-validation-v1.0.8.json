@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "version": "v1.0.8",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "sha256": "4eed1b662943d1e8c554595626d5ec52c0e0c7b145c47b03248aa687ca2938e9",
+    "size": "1536x2288",
+    "format": "lossless RGBA WebP",
+    "validator_ok": true,
+    "transparent_rgb_residue_pixels": 0
+  },
+  "left_run_scale": {
+    "factor": 0.9521276595744681,
+    "right_max_alpha_height": 179,
+    "left_max_alpha_height_before": 188,
+    "left_max_alpha_height_after": 179,
+    "baseline_y": 203,
+    "unchanged_rows_rgba_identical": true
+  },
+  "left_run_palette_check": {
+    "before_opaque_mean_rgb": [138.77, 149.016, 171.789],
+    "after_opaque_mean_rgb": [138.77, 149.016, 171.789],
+    "before_opaque_median_rgb": [145, 161, 186],
+    "after_opaque_median_rgb": [145, 161, 186]
+  },
+  "local_install": {
+    "manifest_path": "/Users/yeyou/.codex/pets/little-blue-fish/pet.json",
+    "spritesheetPath": "spritesheet-v1.0.8.webp",
+    "atlas_sha256_matches_release": true,
+    "native_app_display_verified": false
+  },
+  "archive": {
+    "name": "bingyuzi-codex-v2-v1.0.8.zip",
+    "sha256": "b546861ade18a5ae531e753f3a6e300dd3a3ec133c0a90f5920d06964bb59af5",
+    "contains_manifest_and_spritesheet": true
+  }
+}
