@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-11-24T14:32:00+08:00",
+  "candidate": "../candidate.webp",
+  "sha256": "673c9688f52182a8d4b048fa86372306d2064642b9ee344817ecf5bf1e24d8ae",
+  "method": [
+    "Reloaded playback.html after the final export and visually inspected the refreshed original-speed and half-speed previews.",
+    "Reviewed the current contact sheet and stepped frames 6, 7, and 8 in the browser; the atlas is an 8-frame loop with frame 8 wrapping to frame 1."
+  ],
+  "checks": {
+    "latest_candidate_loaded": "pass",
+    "left_facing_and_fish_on_screen_right": "pass",
+    "two_legs_and_two_shoes_across_gait": "pass",
+    "near_far_leg_exchange": "pass",
+    "hip_knee_seams": "pass_with_minor_paper_puppet_overlap",
+    "proportions_stable": "pass",
+    "frame_8_to_frame_1_loop": "pass",
+    "transparent_cut_edges": "pass_per_atlas_validation"
+  },
+  "observations": [
+    "Both legs and shoes remain distinguishable across the two half-cycles; the supporting leg changes between the near and far leg.",
+    "The waist/hip junction has a small soft overlap consistent with the accepted cutout-paper-puppet approach; no open background gap is apparent in the refreshed previews at review scale.",
+    "At the loop boundary, the stance changes but the figure remains in the same left-facing silhouette and scale; no abrupt body jump was apparent.",
+    "The atlas report confirms RGBA output with zero transparent RGB residue pixels and no chroma fringe pixels."
+  ],
+  "limitations": [
+    "This review validates the browser candidate only. It does not confirm that the native desktop pet panel has reloaded or installed the candidate.",
+    "The accepted source artwork is a cutout puppet; unseen surfaces were not reconstructed."
+  ],
+  "result": "pass_with_minor_visual_overlap"
+}
