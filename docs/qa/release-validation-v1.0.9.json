@@ -1050,5 +1050,24 @@
   "limitations": [
     "Accepted minor soft overlap at the hip/waist cutout joint.",
     "Only the left-running row changed; skeletal method has a limited paper-puppet appearance."
-  ]
+  ],
+  "release": {
+    "tag": "v1.0.9",
+    "repository": "yeyoushen-03/codex-bingyuzi-pet",
+    "asset_names": [
+      "bingyuzi-codex-v2-v1.0.9.zip",
+      "bingyuzi-codex-v2.zip"
+    ],
+    "downloaded_zip_sha256": "978193af0cc63618e2d9adaff9b740cb778ce3cee5177d644bc3b34f6d2b37f1",
+    "downloaded_atlas_sha256": "673c9688f52182a8d4b048fa86372306d2064642b9ee344817ecf5bf1e24d8ae",
+    "zip_manifest": {
+      "id": "little-blue-fish",
+      "displayName": "冰鱼仔",
+      "description": "穿浅蓝鱼连体服、抱着条纹小鱼的毛绒少年，安静陪伴你写代码。",
+      "spriteVersionNumber": 2,
+      "spritesheetPath": "spritesheet.webp"
+    },
+    "zip_atlas_matches_candidate": true,
+    "ok": true
+  }
 }
