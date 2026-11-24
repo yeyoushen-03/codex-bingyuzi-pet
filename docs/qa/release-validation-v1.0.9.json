@@ -3,7 +3,7 @@
   "candidate_sha256": "673c9688f52182a8d4b048fa86372306d2064642b9ee344817ecf5bf1e24d8ae",
   "format_validation": {
     "ok": true,
-    "file": "/Users/yeyou/Documents/codex优化/pets/little-blue-fish/run/repairs/2026-11-24-left-run-rig/candidate.webp",
+    "file": "spritesheet.webp",
     "format": "WEBP",
     "mode": "RGBA",
     "columns": 8,
