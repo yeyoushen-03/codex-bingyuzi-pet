@@ -1,0 +1,35 @@
+{
+  "pet": "little-blue-fish",
+  "version": "v1.0.20",
+  "repair_dir": "run/repairs/2026-11-25-right-mirror-repair",
+  "baseline": "v1.0.19",
+  "changed_rows": [1, 2],
+  "changes": [
+    "Removed isolated extra skin-colored marks from running-right frames 0, 2, and 4.",
+    "Shifted exposed hand hue slightly toward the character's peach skin tone.",
+    "Generated running-left by exact horizontal mirroring of the repaired running-right row."
+  ],
+  "candidate_sha256": "edd979606f5412f28db9c708ed80ba9995c46cadc35dcd557e0c59ffce6f8e03",
+  "validation": {
+    "project_atlas": "pass",
+    "installed_atlas": "pass",
+    "dimensions": "1536x2288",
+    "sprite_version_number": 2,
+    "png_webp_rgba_exact": true,
+    "transparent_rgb_residue": 0,
+    "unchanged_rows": [0, 3, 4, 5, 6, 7, 8, 9, 10],
+    "right_row_mirrored_pixel_exactly_to_left": true,
+    "browser_original_speed_all_frames": "pass",
+    "browser_half_speed_observed": "pass",
+    "browser_loop_7_to_0": "pass",
+    "browser_direction_and_carry_side": "pass"
+  },
+  "installation": {
+    "project_pet_json": "spritesheet-v1.0.20.webp",
+    "installed_pet_json": "spritesheet-v1.0.20.webp",
+    "backup": "/Users/yeyou/.codex/pets/little-blue-fish/backups/v1.0.19-before-v1.0.20",
+    "zip": "dist/bingyuzi-codex-v2-v1.0.20.zip",
+    "zip_sprite_matches_install": true
+  },
+  "client_refresh": "not independently verified"
+}

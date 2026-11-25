@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "browser": "Chrome",
+  "errors": [],
+  "views": [
+    {
+      "width": 1000,
+      "overflow": false,
+      "canvasSizes": [
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ]
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "canvasSizes": [
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ],
+        [
+          192,
+          208
+        ]
+      ]
+    }
+  ],
+  "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "crossSeen": [
+    0,
+    1,
+    2,
+    6
+  ],
+  "modes": [
+    "native timing normal light stationary",
+    "native timing half-speed dark traveling",
+    "uniform timing half-speed dark traveling"
+  ],
+  "atlas_sha256": "0dfbd2c9aaa6cbd920183a9c7c95bb4c52adaa8581d4720edfc54f326a6bf4b4"
+}

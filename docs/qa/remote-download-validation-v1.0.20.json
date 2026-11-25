@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "version": "v1.0.3",
+  "commit": "8c162659a1a424d06442366f64af8113e34bdbd7",
+  "remote_main": "8c162659a1a424d06442366f64af8113e34bdbd7",
+  "release_tag_target": "8c162659a1a424d06442366f64af8113e34bdbd7",
+  "release": "https://github.com/yeyoushen-03/codex-bingyuzi-pet/releases/tag/v1.0.3",
+  "asset_id": 781270595,
+  "archive_sha256": "9f559fa9c907b70638fbd7cc4082607fafdd38e7a05c62f51df286220300a5d7",
+  "manifest_sha256": "618b14ebe0b4be2618e2bb345805268df57f4ced84ab13409c972a4e055e5195",
+  "atlas_sha256": "14510d83f122ceddd822bbbd44e60e3db618df309ef0b4510a0bb3e5612953cd",
+  "downloaded_archive_sha256": "9f559fa9c907b70638fbd7cc4082607fafdd38e7a05c62f51df286220300a5d7",
+  "downloaded_archive_exact": true,
+  "downloaded_manifest_exact": true,
+  "downloaded_atlas_exact": true,
+  "remote_main_atlas_exact": true,
+  "installed_files_exact": true,
+  "remote_archive_manifest_atlas_exact": true,
+  "project_final_atlas_exact": true
+}
